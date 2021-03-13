@@ -17,4 +17,12 @@ $(".carousel").carousel({ interval: 2000, pause: "false" });
     $("#carouselPlay").click(function() {
 $(".carousel").carousel("cycle");
     })*/
+
+    $("#reserve").click(function() {
+        $("#reserveModal").modal('toggle');
+    })
+
+    $("#login").click(function() {
+        $("#loginModal").modal('toggle');
+    })
 });
